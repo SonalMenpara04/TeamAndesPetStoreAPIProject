@@ -1,0 +1,42 @@
+{
+  "getUploadImageData": [
+    {
+      "contentType": "application/json",
+      "baseUri": "https://petstore.swagger.io/",
+      "endPoint": "/v2/pet/613/uploadImage",
+      "payload": "/src/test/resources/requestBody/uploadImage.json",
+      "statusCode": "415",
+      "method": "POST",
+      "file": "Screenshot_20221215_124724.jpg"
+    }
+  ],
+  "deletePetById": [
+    {
+      "contentType": "application/json",
+      "baseUri": "https://petstore.swagger.io/",
+      "endPoint": "/v2/pet",
+      "payload": "/src/test/resources/requestBody/deleteUSerByPetId.json",
+      "statusCode": "405",
+      "method": "DELETE",
+      "id": "2"
+    }
+  ],
+  "createUserDataWithArray": [
+    {
+      "contentType": "application/json",
+      "baseUri": "https://petstore.swagger.io/",
+      "endPoint": "/v2/user/createWithArray",
+      "payload": "/src/test/resources/requestBody/createUserDataWithArray.json",
+      "statusCode": "500",
+      "method": "POST",
+      "id": "1234534321",
+      "username": "dhara123",
+      "firstName": "dhara",
+      "lastName": "patel",
+      "email": "dahara@gmail.com",
+      "password": "dhara123",
+      "phone": "4561255623",
+      "userStatus": "1"
+    }
+  ]
+}
